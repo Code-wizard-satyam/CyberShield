@@ -36,8 +36,8 @@ const Home = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-cyan-300">Protecting You in the Digital World!</h1>
           <p className="text-lg md:text-xl mb-8 text-white">Report cybercrimes, get help from experts, and learn how to stay safe online.</p>
           <div className="flex gap-4 mb-8">
-            <button className="px-6 py-2 bg-cyan-400 text-white rounded-full font-semibold hover:bg-cyan-500 transition">Report a Problem</button>
-            <button className="px-6 py-2 bg-cyan-400 text-white rounded-full font-semibold hover:bg-cyan-500 transition">Resources</button>
+            <a href="/report"><button className="px-6 py-2 bg-cyan-400 text-white rounded-full font-semibold hover:bg-cyan-500 transition">Report a Problem</button></a>
+            <a href="/resources"><button className="px-6 py-2 bg-cyan-400 text-white rounded-full font-semibold hover:bg-cyan-500 transition">Resources </button></a>
           </div>
         </div>
         {/* Image Placeholder */}

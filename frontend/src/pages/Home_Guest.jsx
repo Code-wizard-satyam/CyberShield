@@ -22,7 +22,7 @@ const Home = () => {
         </div>
         <nav className="flex items-center gap-8">
           <a href="/aboutus" className="hover:text-cyan-400 transition">About Us</a>
-          <a href="#" className="ml-4 flex items-center justify-center">
+          <a href="/login" className="ml-4 flex items-center justify-center">
             <img src={login} alt="Log In" className="h-12 w-auto" />
           </a>
         </nav>

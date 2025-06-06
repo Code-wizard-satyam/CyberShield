@@ -24,7 +24,7 @@ const Home = () => {
           <a href="/community" className="hover:text-cyan-400 transition">Community</a>
           <a href="/resources" className="hover:text-cyan-400 transition">Resources</a>
           <a href="/aboutus" className="hover:text-cyan-400 transition">About Us</a>
-          <a href="/homeuser" className="ml-4 flex items-center justify-center">
+          <a href="/homeguest" className="ml-4 flex items-center justify-center">
             <img src={logout} alt="Log Out" className="h-12 w-auto" />
           </a>
         </nav>

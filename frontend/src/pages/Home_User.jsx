@@ -42,7 +42,7 @@ const Home = () => {
         </div>
         {/* Image Placeholder */}
         <div className="flex-1 flex justify-center items-center mt-10 md:mt-0 md:ml-16">
-          <div className="w-[350px] h-[260px] md:w-[500px] md:h-[380px] bg-purple-800 bg-opacity-30 rounded-2xl flex items-center justify-center border-2 border-dashed border-cyan-400">
+          <div className="w-[350px] h-[260px] md:w-[500px] md:h-[380px]  rounded-2xl flex items-center justify-center  border-cyan-400">
             <img src={image1} alt="Main Hero" className="w-[90%] h-[90%] object-contain" />
           </div>
         </div>

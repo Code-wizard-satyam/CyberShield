@@ -29,7 +29,7 @@ const Home = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="flex flex-col md:flex-row items-center justify-between px-8 md:px-24 py-12 md:py-20">
+      <section className="flex flex-col md:flex-row items-center justify-between px-8 md:px-24 h-[90vh] py-12 md:py-20">
         <div className="flex-1 max-w-xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-cyan-300">Protecting You in the Digital World!</h1>
           <p className="text-lg md:text-xl mb-8 text-white">Report cybercrimes, get help from experts, and learn how to stay safe online.</p>
@@ -43,13 +43,13 @@ const Home = () => {
       </section>
 
       {/* Key Features Section */}
-      <section className="w-full bg-gradient-to-b from-purple-800 to-purple-900 py-16 px-4 md:px-0">
+      <section className="w-full bg-gradient-to-b from-purple-800 to-purple-900 py-16 px-4 h-[100vh]  md:px-0">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-cyan-300 mb-4">Key Features</h2>
           <p className="text-white mb-10 max-w-2xl mx-auto">
             Our platform is designed with powerful tools to help you navigate the digital world safely and confidently. Whether you're facing a cyber threat, seeking expert guidance, or simply wanting to stay informed, we've got you covered. Explore our core features that make protecting yourself online easier than ever.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-8">
+          <div className="grid  grid-cols-1 md:grid-cols-4 gap-10 mt-20">
             {/* Feature 1 */}
             <div className="flex flex-col items-center">
               <div className="w-48 h-32 bg-gradient-to-br from-[#3a0ca3] to-[#7209b7] rounded-2xl mb-4 flex items-center justify-center shadow-lg">
@@ -83,7 +83,7 @@ const Home = () => {
       </section>
 
       {/* Bottom Login Prompt Section */}
-      <section className="w-full flex flex-col md:flex-row items-center justify-center py-12 px-4 md:px-0 bg-gradient-to-b from-purple-900 to-purple-800">
+      <section className="w-full h-[100vh] flex flex-col md:flex-row items-center justify-center py-12 px-4 md:px-0 bg-gradient-to-b from-purple-900 to-purple-800">
         {/* Image Placeholder (left) */}
         <div className="flex-1 flex justify-center items-center mb-8 md:mb-0">
           <div className="w-[350px] h-[200px] md:w-[500px] md:h-[300px] bg-purple-800 bg-opacity-30 rounded-2xl flex items-center justify-center border-2 border-dashed border-cyan-400">

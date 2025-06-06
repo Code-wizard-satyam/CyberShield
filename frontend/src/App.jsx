@@ -5,6 +5,7 @@ import './App.css'
 import Signup from './Auth/Signup'
 import Login from './Auth/Login'
 import HomeUser from './pages/Home_User'
+import HomeGuest from './pages/Home_Guest'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="*" element={<Signup />} />
         <Route path="/homeuser" element={<HomeUser />} /> 
+        <Route path="/homeguest" element={<HomeGuest />} />
       </Routes>
     </Router>
   )

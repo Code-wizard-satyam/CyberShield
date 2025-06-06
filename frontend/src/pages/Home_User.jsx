@@ -8,7 +8,10 @@ import logout from '../../public/home/logout.svg';
 
 const Home = () => {
   return (
-    <div className="min-h-screen w-full bg-gradient-to-b from-purple-900 to-purple-700 text-white font-sans">
+    <div
+      className="min-h-screen w-full text-white font-sans"
+      style={{ background: 'linear-gradient(90deg, #350166 0%, #6A0773 100%)' }}
+    >
       {/* Header */}
       <header className="flex items-center justify-between px-8 py-4">
         <div className="flex items-center">

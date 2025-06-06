@@ -8,6 +8,7 @@ import HomeUser from './pages/Home_User'
 import HomeGuest from './pages/Home_Guest'
 import Aboutus from './pages/Aboutus'
 import Report from './pages/Report'
+import Community from './pages/Community'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="*" element={<HomeGuest />} />
         <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/report" element={<Report />} />
+        <Route path="/community" element={<Community />} />
       </Routes>
     </Router>
   )

@@ -20,9 +20,7 @@ const Home = () => {
         </div>
         <nav className="flex items-center gap-8">
           <a href="/homeuser" className="hover:text-cyan-400 transition">Home</a>
-          <a href="/report" className="hover:text-cyan-400 transition">Report a Problem</a>
           <a href="/community" className="hover:text-cyan-400 transition">Community</a>
-          <a href="/resources" className="hover:text-cyan-400 transition">Resources</a>
           <a href="/aboutus" className="hover:text-cyan-400 transition">About Us</a>
           <a href="/homeguest" className="ml-4 flex items-center justify-center">
             <img src={logout} alt="Log Out" className="h-12 w-auto" />
@@ -38,7 +36,9 @@ const Home = () => {
           <div className="flex gap-4 mb-8">
             <a href="/report"><button className="px-6 py-2 bg-cyan-400 text-white rounded-full font-semibold hover:bg-cyan-500 transition">Report a Problem</button></a>
             <a href="/resources"><button className="px-6 py-2 bg-cyan-400 text-white rounded-full font-semibold hover:bg-cyan-500 transition">Resources </button></a>
+            <a href="/ask_ai"><button className="px-6 py-2 bg-cyan-400 text-white rounded-full font-semibold hover:bg-cyan-500 transition">ASK AI </button></a>
           </div>
+          
         </div>
         {/* Image Placeholder */}
         <div className="flex-1 flex justify-center items-center mt-10 md:mt-0 md:ml-16">

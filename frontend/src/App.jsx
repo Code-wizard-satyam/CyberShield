@@ -9,6 +9,7 @@ import HomeGuest from './pages/Home_Guest'
 import Aboutus from './pages/Aboutus'
 import Report from './pages/Report'
 import Community from './pages/Community'
+import ASK_AI from './pages/ask_ai'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/report" element={<Report />} />
         <Route path="/community" element={<Community />} />
+        <Route path="/ask_ai" element={<ASK_AI />} />
       </Routes>
     </Router>
   )

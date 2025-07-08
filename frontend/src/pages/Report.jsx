@@ -16,10 +16,6 @@ const Report = () => {
         </div>
         <nav className="flex items-center gap-8">
           <a href="/homeuser" className="hover:text-cyan-400 transition">Home</a>
-          <a href="/report" className="hover:text-cyan-400 transition">Report a Problem</a>
-          <a href="/community" className="hover:text-cyan-400 transition">Community</a>
-          <a href="/resources" className="hover:text-cyan-400 transition">Resources</a>
-          <a href="/aboutus" className="hover:text-cyan-400 transition">About Us</a>
           <a href="/homeguest" className="ml-4 flex items-center justify-center">
             <img src={logout} alt="Log Out" className="h-12 w-auto" />
           </a>
@@ -29,7 +25,7 @@ const Report = () => {
       {/* Hero Section */}
       <section className="max-w-3xl mx-auto text-center mt-8">
         <p className="text-lg md:text-xl mb-8">
-          If you've experienced a scam, cyberbullying, fraud, or any other digital threat – let us know. Our community and experts are here to help, and your report helps others stay safe.
+          Now Your safety is our Duty. <br /> Scroll down to report a problem.
         </p>
         <div className="flex justify-center items-center my-8">
           <div className="w-full max-w-2xl h-[220px] md:h-[260px] bg-gradient-to-br from-[#6A0773] to-[#350166] rounded-[48px] flex items-center justify-center border-2 border-fuchsia-400 shadow-[0_0_40px_0_rgba(170,28,211,0.4)]">

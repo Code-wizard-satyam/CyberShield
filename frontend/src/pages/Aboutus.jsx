@@ -21,7 +21,6 @@ const Aboutus = () => {
         </div>
         <nav className="flex items-center gap-8">
           <a href="/homeuser" className="text-white hover:text-cyan-400 transition">Home</a>
-          <a href="/aboutus" className="text-white hover:text-cyan-400 transition">About Us</a>
           <a href="#" className="ml-4 flex items-center justify-center">
             <img src={login} alt="Log In" className="h-12 w-auto" />
           </a>

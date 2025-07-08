@@ -25,7 +25,7 @@ const Login = () => {
           <form className="w-full flex flex-col gap-4">
             <input
               type="text"
-              placeholder="Name"
+              placeholder="User Name"
               className="w-full px-4 py-3 rounded bg-gray-200 placeholder-gray-500 focus:outline-none"
             />
             <input

@@ -48,6 +48,11 @@ const Signup = () => {
               className="w-full px-4 py-3 rounded bg-gray-200 placeholder-gray-500 focus:outline-none"
             />
             <input
+              type="text"
+              placeholder="User Name"
+              className="w-full px-4 py-3 rounded bg-gray-200 placeholder-gray-500 focus:outline-none"
+            />
+            <input
               type="password"
               placeholder="Password"
               className="w-full px-4 py-3 rounded bg-gray-200 placeholder-gray-500 focus:outline-none"
